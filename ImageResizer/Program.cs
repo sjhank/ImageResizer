@@ -14,7 +14,7 @@ namespace ImageResizer
             string sourcePath = Path.Combine(Environment.CurrentDirectory, "images");
             string destinationPath = Path.Combine(Environment.CurrentDirectory, "output"); ;
 
-            ImageProcess imageProcess = new ImageProcess();
+            var imageProcess = new ImageProcess1();
 
             imageProcess.Clean(destinationPath);
 
